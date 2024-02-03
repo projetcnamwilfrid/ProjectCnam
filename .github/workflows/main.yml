@@ -8,7 +8,7 @@ jobs:
         uses: appleboy/ssh-action@master
         with:
           host: ssh-willou.alwaysdata.net
-          username: ${{ secrets.USERNAME }}
+          username: willou
           password: ${{ secrets.PASSWORD }}
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
